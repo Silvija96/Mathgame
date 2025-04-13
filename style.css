@@ -1,0 +1,82 @@
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.target,
+.score,
+#timer {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#expression {
+  font-size: 28px;
+  margin: 20px 0 5px;
+  color: #333;
+}
+
+#currentValue {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.buttons,
+.operators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #dbefff;
+  border-color: #77aadd;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+#message {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.score {
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.operators button {
+  background-color: #fffbf0;
+  border-color: #f4cd7c;
+}
+
+.operators button:hover {
+  background-color: #fff3d1;
+}
+
+button.disabled {
+  background-color: red;
+}
